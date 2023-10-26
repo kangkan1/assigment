@@ -1,0 +1,19 @@
+-- create table
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    category TEXT
+);
+CREATE TABLE libraby_accounts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    student_id INTEGER,
+    librarian_id INTEGER
+);
+
+CREATE TABLE librabry_books_taken (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    account_id INTEGER,
+    book_name TEXT,
+    type TEXT
+);
+

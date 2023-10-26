@@ -1,5 +1,5 @@
 <?php
-    // function to merge and find sum
+    // function to merge and find target sum
     function mergeAndFindSum($arr1, $arr2, $target){
         $i=0;
         $j=0;
@@ -35,8 +35,11 @@
         }
     }
     // function end
-    $array1 = [1, 3, 5, 6, 8, 22];
+
+
+    $array1 = [1, 3, 5, 6, 8, 22]; //two array
     $array2 = [2, 4, 7, 9, 10];
     $target_sum = 7;
+    // call the function
     mergeAndFindSum($array1, $array2, $target_sum);
 ?>
