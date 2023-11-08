@@ -1,4 +1,4 @@
-select u1.name as user_name, u2.name as librarian
+select DISTINCT u1.name as user_name, u2.name as librarian
 from libraby_accounts la 
 JOIN librabry_books_taken lbt ON la.id = lbt.account_id
 JOIN users u1 ON la.student_id = u1.id
